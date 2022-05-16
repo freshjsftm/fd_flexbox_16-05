@@ -13,13 +13,23 @@
   font-size: 1.5em;
 }
 .flex-parent{
-  min-height: 80vh;
-  max-height: 90vh;
+  /* min-height: 80vh;
+  max-height: 90vh; */
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   /* flex-direction: column;
   flex-wrap: wrap-reverse; */
-  justify-content: space-between;
+  /* justify-content: center;
   align-items: stretch;
-  align-content: flex-start;
+  align-content: flex-start; */
+}
+/* children */
+.order1{
+  order: 1;
+}
+.order2{
+  order: -1;
+} 
+.self{
+  align-self: center;
 }
